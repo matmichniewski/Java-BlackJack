@@ -28,7 +28,7 @@ public class GameTest {
     public void before(){
 
         highCard = new Card(Suit.DIAMONDS, Rank.KING);
-        lowCard = new Card(Suit.HEARTS, Rank.QUEEN);
+        lowCard = new Card(Suit.HEARTS, Rank.NINE);
         bustCard = new Card(Suit.DIAMONDS, Rank.FIVE);
 
         deck = new Deck();
@@ -81,7 +81,7 @@ public class GameTest {
     public void canCheckDraw(){
         player1.addCard(lowCard);
         dealer.addCard(lowCard);
-        assertEquals(null, game.checkWinner());
+        assertEquals(true, game.checkDraw());
     }
 
     @Test

@@ -26,13 +26,17 @@ public class Player {
         this.hand.add(card);
     }
 
-
     public int valueOfHand() {
         int total = 0;
         for (Card card : this.hand){
             int value = card.getValue();
+
+            if(value == 1){
+                value += 10;
+            }
             total += value;
-        }
+
+    }
         return total;
     }
 

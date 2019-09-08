@@ -58,6 +58,7 @@ public class Game {
 
 
     public Object checkWinner() {
+        if (!this.checkDraw());
 
 
         ArrayList<Player> nonBustPlayers = this.nonBustPlayers();
