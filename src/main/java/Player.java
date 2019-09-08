@@ -51,4 +51,8 @@ public class Player {
     public boolean isSticking() {
         return this.sticking;
     }
+
+    public void sticks() {
+        this.sticking = true;
+    }
 }

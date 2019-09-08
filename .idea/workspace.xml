@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7367357-a7b1-4650-b821-328999c10ef1" name="Default Changelist" comment="" />
+    <list default="true" id="b7367357-a7b1-4650-b821-328999c10ef1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +65,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="831">
-                  <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+                <state relative-caret-position="824">
+                  <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
                   <folding>
                     <element signature="e#369#370#0" expanded="true" />
                     <element signature="e#390#391#0" expanded="true" />
@@ -75,6 +78,12 @@
                     <element signature="e#783#784#0" expanded="true" />
                     <element signature="e#828#829#0" expanded="true" />
                     <element signature="e#849#850#0" expanded="true" />
+                    <element signature="e#890#891#0" expanded="true" />
+                    <element signature="e#921#922#0" expanded="true" />
+                    <element signature="e#957#958#0" expanded="true" />
+                    <element signature="e#993#994#0" expanded="true" />
+                    <element signature="e#1021#1022#0" expanded="true" />
+                    <element signature="e#1056#1057#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -83,8 +92,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="869">
-                  <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+                <state relative-caret-position="750">
+                  <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#469#470#0" expanded="true" />
@@ -93,6 +102,8 @@
                     <element signature="e#651#652#0" expanded="true" />
                     <element signature="e#1186#1187#0" expanded="true" />
                     <element signature="e#1216#1217#0" expanded="true" />
+                    <element signature="e#1408#1409#0" expanded="true" />
+                    <element signature="e#1438#1439#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -218,6 +229,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -249,6 +263,7 @@
     <option name="width" value="3008" />
     <option name="height" value="1692" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -304,6 +319,9 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -316,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest.startsNotSticking">
+  <component name="RunManager" selected="JUnit.PlayerTest.playerCanStick">
     <configuration name="PlayerTest.canBeBust" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackJack" />
       <option name="PACKAGE_NAME" value="" />
@@ -337,11 +355,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest.playerCanStick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackJack" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlayerTest" />
-      <option name="METHOD_NAME" value="canGetName" />
+      <option name="METHOD_NAME" value="playerCanStick" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -369,11 +387,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest.playerCanStick" />
         <item itemvalue="JUnit.PlayerTest.startsNotSticking" />
         <item itemvalue="JUnit.PlayerTest.canBeBust" />
         <item itemvalue="JUnit.PlayerTest.startsNotBust" />
         <item itemvalue="JUnit.PlayerTest.canClearHand" />
-        <item itemvalue="JUnit.PlayerTest.canGetName" />
       </list>
     </recent_temporary>
   </component>
@@ -391,15 +409,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeckTest - 2019.09.07 at 19h 50m 02s.xml">
-      <configuration name="DeckTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeckTest - 2019.09.07 at 19h 52m 41s.xml">
-      <configuration name="DeckTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeckTest - 2019.09.07 at 19h 52m 54s.xml">
-      <configuration name="DeckTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PlayerTest_canGetName - 2019.09.08 at 18h 41m 22s.xml">
       <configuration name="PlayerTest.canGetName" configurationId="JUnit" />
     </history-entry>
@@ -420,6 +429,15 @@
     </history-entry>
     <history-entry file="PlayerTest_canClearHand - 2019.09.08 at 18h 58m 28s.xml">
       <configuration name="PlayerTest.canClearHand" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_startsNotBust - 2019.09.08 at 19h 00m 21s.xml">
+      <configuration name="PlayerTest.startsNotBust" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_canBeBust - 2019.09.08 at 19h 02m 11s.xml">
+      <configuration name="PlayerTest.canBeBust" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_startsNotSticking - 2019.09.08 at 19h 04m 10s.xml">
+      <configuration name="PlayerTest.startsNotSticking" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -579,8 +597,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state relative-caret-position="824">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
           <folding>
             <element signature="e#369#370#0" expanded="true" />
             <element signature="e#390#391#0" expanded="true" />
@@ -592,14 +610,20 @@
             <element signature="e#783#784#0" expanded="true" />
             <element signature="e#828#829#0" expanded="true" />
             <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+        <state relative-caret-position="750">
+          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#469#470#0" expanded="true" />
@@ -608,6 +632,8 @@
             <element signature="e#651#652#0" expanded="true" />
             <element signature="e#1186#1187#0" expanded="true" />
             <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
           </folding>
         </state>
       </provider>

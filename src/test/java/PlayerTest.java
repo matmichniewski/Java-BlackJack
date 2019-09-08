@@ -67,5 +67,11 @@ public class PlayerTest {
         assertEquals(false, player1.isSticking());
     }
 
+    @Test
+    public void playerCanStick(){
+        player1.sticks();
+        assertEquals(true, player1.isSticking());
+    }
+
 
 }
